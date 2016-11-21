@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">List</string>
+    <string name="out_come_list">welcome to the jungle</string>
+    <string name="save">保存</string>
+    <string name="a">sum</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="sum">金额</string>
+    <string name="scope_month">月</string>
+    <string name="scope_day">日</string>
+    <string name="in_plan">计划内</string>
+    <string name="out_plan">计划外</string>
+    <string name="scope">范围：</string>
+    <string name="remark">备注</string>
+    <string name="label">标签</string>
+    <string name="date">日期</string>
+    <string name="month_total">本月总支出：</string>
+    <string name="month_int_plan">本月计划内支出：</string>
+    <string name="month_out_plan">计划外支出：</string>
+    <string name="day_out_plan">计划外支出：</string>
+    <string name="default_sum">￥0.00</string>
+    <string name="day_in_plan">本日计划内支出：</string>
+</resources>
