@@ -28,5 +28,6 @@ dependencies {
     compile 'javax.inject:javax.inject:1'
     compile 'javax.annotation:javax.annotation-api:1.2'
     compile 'com.android.support:design:25.0.1'
+    compile 'com.android.support:support-annotations:25.0.1'
     testCompile 'junit:junit:4.12'
 }

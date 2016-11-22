@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">List</string>
     <string name="out_come_list">welcome to the jungle</string>
-    <string name="save">保  存 dev_3</string>
+    <string name="save">保  存</string>
     <string name="a">sum</string>
     <string name="title_activity_login">Sign in</string>
 

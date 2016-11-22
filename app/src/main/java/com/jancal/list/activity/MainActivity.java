@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.jancal.list.R;
-import com.jancal.list.domain.ItemInit;
+import com.jancal.list.domain.AddItemParam;
 import com.jancal.list.domain.Label;
 import com.jancal.list.domain.PlanType;
 import com.jancal.list.domain.Scope;
@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
                     String labelStr = label.getText().toString();
                     String remarkStr = remark.getText().toString();
                     Label label1 = new Label(labelStr, Scope.day, PlanType.in_plan, remarkStr);
-                    iItemOperateService.addItem(new ItemInit(sumFloat, label1, sdf.parse(dateStr)));
+//                    iItemOperateService.addItem(new AddItemParam(sumFloat, label1, sdf.parse(dateStr)));
+                    iItemOperateService.addItem(null);
                     Toast.makeText(getApplicationContext(), "save successful", Toast.LENGTH_LONG).show();
                 } catch (Exception e) {
                     Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();

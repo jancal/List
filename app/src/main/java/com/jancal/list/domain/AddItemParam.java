@@ -3,14 +3,14 @@ package com.jancal.list.domain;
 import java.util.Date;
 
 
-public class ItemInit {
+public class AddItemParam {
 
     private float sum;
     private Date date;
     private Label label;
 
 
-    public ItemInit(float sum, Label label, Date date) {
+    public AddItemParam(float sum, Label label, Date date) {
         this.setSum(sum);
         this.setLabel(label);
         this.setDate(date);

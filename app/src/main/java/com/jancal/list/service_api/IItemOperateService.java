@@ -1,16 +1,15 @@
 package com.jancal.list.service_api;
 
-import com.jancal.list.domain.ItemInit;
+import com.jancal.list.domain.AddItemParam;
 
 import java.util.List;
 
 /**
- * Created by Administrator on 2016/11/19.
+ *
  */
-
 public interface IItemOperateService {
 
-    void addItem(ItemInit item);
+    void addItem(AddItemParam item);
 
-    List<ItemInit> findAllItems();
+    List<AddItemParam> findAllItems();
 }
