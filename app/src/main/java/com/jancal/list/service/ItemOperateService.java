@@ -10,7 +10,6 @@ import java.util.List;
 public class ItemOperateService implements IItemOperateService {
     @Override
     public void addItem(AddItemParam item) {
-        Assert.assertNotNull(item);
         System.out.println(item.getLabel() + "," + item.getSum());
     }
 
